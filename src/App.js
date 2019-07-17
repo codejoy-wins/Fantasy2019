@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Gentleman from './components/Gentleman'
+import gentlemen from './gentlemen'
 
 function App() {
+
+  const gentlemenComponents = gentlemen.map(gentleman=><Gentleman key={gentleman.id} magic= {gentleman}/>)
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Power Rankings</h1>
       </header>
+      <main>
+        {gentlemenComponents}
+
+      </main>
     </div>
   );
 }
