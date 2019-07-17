@@ -15,8 +15,10 @@ function App() {
       </header>
       <main>
         {gentlemenComponents}
-
       </main>
+      <footer>
+        <a href="https://maxjann.com">Jann Software</a>
+      </footer>
     </div>
   );
 }
