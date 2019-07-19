@@ -2,27 +2,23 @@ const gentlemen = [
     {
         id: 1,
         name: "Devin Kazmer",
-        rank: 1,
         summary: "The best",
         imgUrl: "https://pbs.twimg.com/profile_images/835944205788708865/sTiX6pPg_400x400.jpg"
     },
     {
         id: 2,
         name: "Max Jann",
-        rank: 2,
         summary: "The Developer",
         imgUrl: "https://pbs.twimg.com/profile_images/2636643861/5600d137ea0a147deb0774c2edbdd089_400x400.png"
     },
     {
         id: 3,
         name: "Andrew Seif",
-        rank: 4,
         summary: "The Champ, the Sheriff"
     },
     {
         id: 4,
         name: "Sven Svennifiord",
-        rank: 3,
         summary: "Surprisingly good"
     },
     {
